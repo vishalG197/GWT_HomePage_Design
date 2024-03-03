@@ -17,10 +17,12 @@ GWT_Homepage_Design/
 │- index.js
 
 ## Video Walkthrough of the project
-Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
 
-## Video Walkthrough of the codebase
-Attach a very short video walkthough of the codebase [ 1 - 5 minutes ]
+
+
+
+https://github.com/vishalG197/GWT_HomePage_Design/assets/119415070/f07d817a-fe6e-4547-8b43-7c0cad693dc1
+
 
 ## Features
 List out the key features of your application.
@@ -36,43 +38,35 @@ List out the key features of your application.
 - customer testimonial slider working as expected upon clicking.
 - text animation is working as expected in the timeless section.
   
-## design decisions or assumptions
-List your design desissions & assumptions
 
-## Installation & Getting started
-Detailed instructions on how to install, configure, and get the project running. For BE/FS projects, guide the reviewer how to check mongodb schema etc.
-
-```bash
-npm install my-project
-cd my-project
-npm start
-```
-
-## Usage
-Provide instructions and examples on how to use your project.
-
-```bash
-# Example
-```
 
 Include screenshots as necessary.
+##slider
+<img width="726" alt="image" src="https://github.com/vishalG197/GWT_HomePage_Design/assets/119415070/44159312-53ce-4a3e-a015-7e21c666d455">
 
-## Credentials
-Provide user credentials for autheticated pages
+##product
+<img width="487" alt="image" src="https://github.com/vishalG197/GWT_HomePage_Design/assets/119415070/b925f42e-486a-4b7b-8b08-00af3a6c5a9d">
 
-## APIs Used
-If your application relies on external APIs, document them and include any necessary links or references.
+##BEStSEller
+<img width="469" alt="image" src="https://github.com/vishalG197/GWT_HomePage_Design/assets/119415070/bed8579c-8057-42ce-93d4-938eb87f0595">
 
-## API Endpoints
-In case of Backend Applications provide a list of your API endpoints, methods, brief descriptions, and examples of request/response.
-GET /api/items - retrieve all items
-POST /api/items - create a new item
+##TESTIMONIAL
+<img width="514" alt="image" src="https://github.com/vishalG197/GWT_HomePage_Design/assets/119415070/58a9ad01-e5ce-4368-a557-f08ea0b217df">
+
+##Why Timeless
+<img width="504" alt="image" src="https://github.com/vishalG197/GWT_HomePage_Design/assets/119415070/6d4d1919-3f9c-4614-a3e6-68ae17eefd74">
+
+
+##footer
+
+<img width="522" alt="image" src="https://github.com/vishalG197/GWT_HomePage_Design/assets/119415070/f1880389-7b61-47af-98c5-2f243d6d24ed">
+
 
 
 ## Technology Stack
-List and provide a brief overview of the technologies used in the project.
 
-- Node.js
-- Express.js
-- MongoDB
-- Other libraries/modules
+
+- HTML
+- CSS
+- JAVASCRIPT
+
