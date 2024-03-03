@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>GWT-HOMEPAGE</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+   <!-- Header_web -->
+   <header>
+      <!-- nav_1 -->
+      <nav class="nav_icon container">
+         <div class="location">
+            <img src="./imges/Left Header.svg" alt="">
+         </div>
+         <div class="logo_content">
+            <div class="logo_dark"><img src="./imges/Logo Dark.svg" alt="logo"></div>
+            <div class="name_dark">
+               <img src="./imges/Name Dark.svg" alt="">
+            </div>
+            <div class="sign">®</div>
+         </div>
+         <div class="right_nav">
+            <a href="#"><img src="./imges/NoPath - Copy.svg" alt=""></a>
+            <a href="#"><img src="./imges/Icon feather-heart.svg" alt=""></a>
+            <a href="#"><img src="./imges/NoPath - Copy (11).svg" alt=""></a>
+            <a href="#"><img src="./imges/NoPath - Copy (10).svg" alt=""></a>
+         </div>
+      </nav>
+      <!-- nav_2 -->
+      <nav class="nav_text container">
+         <a href="home" class="nav_link">Home</a>
+         <a href="face" class="nav_link">Face</a>
+         <a href="hair" class="nav_link">Hair</a>
+         <a href="body" class="nav_link">Body</a>
+         <a href="mini" class="nav_link">Mini's</a>
+         <a href="gifting" class="nav_link">Gifting</a>
+         <a href="secret" class="nav_link">Secret's</a>
+         <a href="offer" class="nav_link">Offer</a>
+         <a href="testimonilas" class="nav_link">Testimonilas</a>
+         <a href="about" class="nav_link">About Us</a>
+         <a href="club" class="nav_link">Club</a>
+      </nav>
+   </header>
+   <main>
+      <section class="slider">
+
+      </section>
+      <section class="secret container">
+         <div>
+<h1 style="font-family: Amatic SC;font-size: 50px;padding:1px;margin:0;">We seek the ancient. We seek the timeless</h2>
+
+<h1 style="font-family: Amatic SC;font-size: 50px;padding:1px;margin:0;">We seek the clean way</h1>
+<p>Inspired from the ancient our products have a rare potency to <br> enhance beauty because we do custom formulation, curate <br> ingredients, test, manufacture, design packaging all at our very <br>own licensed organic factory. </p>
+         </div>
+         <div id="slider_2" >
+
+         </div>
+      </section>
+      <section class="face hair body container">
+         <div class="button_container">
+            <div class="button f" onclick="changeCategory('face')"><img src="./imges/footer_2/Component 14 – 6.svg" alt="">
+                 <h3>FACE</h3>
+            </div>
+            <div class="button h" onclick="changeCategory('hair')"><img src="./imges/footer_2/Component 15 – 86.svg" alt="">
+               <h3>HAIR</h3>
+          </div>
+          <div class="button b" onclick="changeCategory('body')"><img src="./imges/footer_2/Component 16 – 10.svg" alt="">
+            <h3>BODY</h3>
+       </div>
+         </div>
+         <div class="cartAsPercatagory">
+            
+
+   <div class="carousel-container">
+   <div class="carousel" id="carousel"></div>
+   <div class="arrow left" onclick="prevSlide()">&#9665;</div>
+   <div class="arrow right" onclick="nextSlide()">&#9655;</div>
+   </div>
+   <div class="show-more" onclick="toggleCards()" >View All</div>
+ 
+         </div>
+      </section>
+      <section class="bestSeller container" style="text-align:center;">
+         <h2 class="section-heading"  style="font-family: Amatic SC;font-size: 50px;padding:1px;margin:0;">Best Seller</h2>
+         <div id="cardContainer"></div>
+         <div style="display:flex;justify-content: center;align-items: center;">
+            <div id="viewMoreBtn" style="border:1px solid #70645C;border-radius:10px;">View All</div>
+            <div id="viewLessBtn" style="border:1px solid #70645C;border-radius:10px;">View Less</div>
+         </div>
+
+      </section>
+      <section class="testimonial-container container">
+         <h2 class="section-heading"  style="font-family: Amatic SC;font-size: 50px;padding:1px;margin:0;">customer testimonials
+         </h2>
+         <div class="testimonial-list" id="testimonialList"></div>
+         <div class="arrow left" onclick="prevTestimonials()">&#9665;</div>
+         <div class="arrow right" onclick="nextTestimonials()">&#9655;</div>
+         
+     </section>
+           <section class="container why-timeless-section  ">
+               <h2 class="section-heading"  style="font-family: Amatic SC;font-size: 50px;padding:1px;margin:0;">Why Timeless</h2>
+           
+               <div class="tcard-container">
+                   <div class="tcard">
+                       <h3 class="tcard-heading">This is one of the best</h3>
+                       <div class="tcard-content">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quis nihil modi consequuntur, voluptas quos?<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quis nihil modi consequuntur, voluptas quos?</p>
+                       </div>
+                   </div>
+           
+                   <div class="tcard">
+                       <h3 class="tcard-heading">just Timeless</h3>
+                       <div class="tcard-content">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quis nihil modi consequuntur, voluptas quos?<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quis nihil modi consequuntur, voluptas quos?</p>
+                       </div>
+                   </div>
+           
+                   <div class="tcard">
+                       <h3 class="tcard-heading">This is Imp</h3>
+                       <div class="tcard-content">
+                           <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quis nihil modi consequuntur, voluptas quos?<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quis nihil modi consequuntur, voluptas quos?</p>
+                       </div>
+                   </div>
+               </div>
+           
+               
+           
+           </section>
+           <section class=" animation container">
+            <div class="animecard_container">
+<div class="animecard">
+   <div><img src="https://media.tenor.com/nhkAWOoJgZcAAAAi/free-shipping-sazrella.gif" alt="">   </div>
+   <div class="">FREE SHIPING</div>
+</div>
+<div class="animecard">
+   <div><img src="./imges/footer_2/Component 16 – 10.svg" alt="">   </div>
+   <div>COMPLIMENTARY SAMPLER</div>
+</div>
+<div class="animecard">
+   <div><img src="https://tse2.mm.bing.net/th?id=OIP.BDdZ15ROIeKBMbaI2klSZAHaFj&pid=Api&P=0&h=220" alt="">   </div>
+   <div>ACE REFERAL</div>
+</div>
+<div class="animecard">
+   <div><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/395eb470542121.5c661b9b443b2.gif" alt="">   </div>
+<div>GREATE REWARD</div>
+</div>
+            </div>
+           </section>
+      
+   </main>
+   <footer class="footerbg">
+
+      <div class="footer_1 container">
+         <div class="shop">
+            <h3>SHOP</h3>
+            <div>Face Care</div>
+            <div>Hair Care</div>
+            <div>Body Care</div>
+            <div>Custom</div>
+            <div>Gifting</div>
+         </div>
+         <div class="about">
+            <h3>ABOUT</h3>
+            <div>Our Story</div>
+            <div>Giving Back</div>
+            <div>Why Timeless</div>
+            <div>Philosophy</div>
+            <div>Certification</div>
+            <div>Careers</div>
+            <div>Policies</div>
+            <div>Blog</div>
+         </div>
+         <div class="quick_link">
+            <h3>QUICK LINKS</h3>
+            <div>My Account</div>
+            <div>Custom Product</div>
+            <div>Timeless Club</div>
+            <div>Customer Stories</div>
+            <div>Terms & Condition</div>
+            <div>Refer a friend</div>
+            <div>Contact Us</div>
+            <div>FAQS</div>
+         </div>
+         <div class="get_in_touch">
+            <h3>GET IN TOUCH</h3>
+            <div>Email: timelesscare@timelessbeautysecrets.in</div>
+            <div>Address:175, EPIP Industrial Area, Whitefield <br>bangalore - 560066</div>
+            <h3>FOLLOW US</h3>
+            <div class="social_media">
+               <img src="./imges/footer_2/Icon feather-facebook.svg" alt=""><img src="./imges/footer_2/Icon feather-instagram.svg" alt=""><img src="./imges/footer_2/Icon feather-linkedin.svg" alt=""><img src="./imges/footer_2/Icon feather-youtube.svg" alt=""><img src="./imges/footer_2/Icon feather-twitter.svg" alt="">
+            </div>
+         </div>
+      </div>
+     </footer> <footer>
+      <div class="footer_2 container">
+<div>TIMELESS BEAUTY SECRETS <span class="">®</span></div>
+<div class="payment_method">
+<img src="./imges/footer_2/upi-icon.svg" alt=""><img src="./imges/footer_2/Icon awesome-cc-amex.svg" alt=""><img src="./imges/footer_2/Icon payment-maestro-alt.svg" alt=""><img src="./imges/footer_2/Icon payment-discover.svg" alt=""><img src="./imges/footer_2/Icon metro-visa.svg" alt=""><img src="./imges/footer_2/Icon metro-mastercard.svg" alt=""><img src="./imges/footer_2/Icon metro-cc-paypal.svg" alt=""><img src="./imges/footer_2/Icon awesome-cc-jcb.svg" alt=""><img src="./imges/footer_2/Icon awesome-cc-diners-club.svg" alt="">
+
+</div>
+      </div>
+   </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
