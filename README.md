@@ -7,7 +7,7 @@ problem statement is that I have to convert the adobe.xd design to the web app. 
 Frontend 
 
 ## Deplolyed App
-Frontend: https://deployed-site.whatever
+Frontend: https://gwt-home-page-design.vercel.app/
 
 
 ## Directory Structure
