@@ -75,7 +75,7 @@ function renderSlider_2() {
        for (let i = startIndex; i < startIndex + 3; i++) {
            const cardDiv = document.createElement('div');
            cardDiv.className = 'card';
-
+          
            // Create an image element and set its source from the array
            const img = document.createElement('img');
            img.src = imageArray[i % imageArray.length];
@@ -86,6 +86,16 @@ function renderSlider_2() {
 
            // Append the card div to the card set div
            cardSetDiv.appendChild(cardDiv);
+           
+// Add event listener for hover effect
+cardDiv.addEventListener('mouseover', function () {
+    cardDiv.style.backgroundColor = 'lightgray';
+  });
+  
+  // Remove background color on mouseout (hover out)
+  cardDiv.addEventListener('mouseout', function () {
+    cardDiv.style.backgroundColor = ''; // Set to an empty string to remove the background color
+  });
        }
 
        // Append the card set div to the slider container
