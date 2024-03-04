@@ -131,15 +131,15 @@ document.addEventListener('DOMContentLoaded', renderSlider_2);
 
 
 const data = [
-   { imgSrc: './imges/footer_2/kushuma 35ml Paint.svg', title: 'khshuma', rating: 5,price:1999 },
-   { imgSrc: './imges/footer_2/kumkumadi 35ml Paint.svg', title: 'kumkumdi ', rating: 4 ,price:999},
+   { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg', title: 'khshuma', rating: 5,price:1999 },
+   { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg', title: 'kumkumdi ', rating: 4 ,price:999},
    { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg', title: 'Morrocan Argan Paint', rating: 4 ,price:999},
    { imgSrc: './imges/footer_2/Mahodaya Rose Paint.svg', title: 'Mahodaya Rose Paint', rating: 4 ,price:999},
-   { imgSrc: './imges/footer_2/kushuma 35ml Paint.svg', title: 'khshuma 35ml Paint', rating: 5,price:1999 },
+   { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg', title: 'khshuma 35ml Paint', rating: 5,price:1999 },
    { imgSrc: './imges/footer_2/kumkumadi 35ml Paint.svg', title: 'kumkumdi 35ml Paint', rating: 4 ,price:999},
    { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg', title: 'Mahodaya Rose Paint', rating: 4 ,price:999},
    { imgSrc: './imges/footer_2/Mahodaya Rose Paint.svg', title: 'Morrocan Argan Paint', rating: 4 ,price:999},
-   { imgSrc: './imges/footer_2/kushuma 35ml Paint.svg', title: 'khshuma 35ml Paint', rating: 5,price:1999 },
+   { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg', title: 'khshuma 35ml Paint', rating: 5,price:1999 },
    { imgSrc: './imges/footer_2/kumkumadi 35ml Paint.svg', title: 'kumkumdi 35ml Paint', rating: 4 ,price:999},
    { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg', title: 'Morrocan Argan Paint', rating: 4 ,price:999},
    { imgSrc: './imges/footer_2/Mahodaya Rose Paint.svg', title: 'Mahodaya Rose Paint', rating: 4 ,price:999},
@@ -194,18 +194,18 @@ renderCards(data.slice(0, 4));
 viewMoreBtn.style.display = 'block';
 
 const cardData = [
-    { imgSrc: './imges/footer_2/kushuma 35ml Paint.svg',category:"face", title: 'khshuma', rating: 5,price:1999 },
-    { imgSrc: './imges/footer_2/kumkumadi 35ml Paint.svg',category:"face", title: 'kumkumdi ', rating: 4 ,price:999},
+    { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg',category:"face", title: 'khshuma', rating: 5,price:1999 },
+    { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg',category:"face", title: 'kumkumdi ', rating: 4 ,price:999},
     { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg',category:"face", title: 'Morrocan Argan Paint', rating: 4 ,price:999},
-    { imgSrc: './imges/footer_2/kushuma 35ml Paint.svg',category:"face", title: 'khshuma 35ml Paint', rating: 5,price:1999 },
+    { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg',category:"face", title: 'khshuma 35ml Paint', rating: 5,price:1999 },
     { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg',category:"hair", title: 'Morrocan Argan Paint', rating: 4 ,price:999},
     { imgSrc: './imges/footer_2/Mahodaya Rose Paint.svg',category:"hair", title: 'Mahodaya Rose Paint', rating: 4 ,price:999},
     { imgSrc: './imges/footer_2/Mahodaya Rose Paint.svg',category:"hair", title: 'Mahodaya Rose Paint', rating: 4 ,price:999},
-    { imgSrc: './imges/footer_2/kushuma 35ml Paint.svg',category:"hair", title: 'khshuma 35ml Paint', rating: 5,price:1999 },
-    { imgSrc: './imges/footer_2/kumkumadi 35ml Paint.svg',category:"body", title: 'kumkumdi 35ml Paint', rating: 4 ,price:999},
+    { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg',category:"hair", title: 'khshuma 35ml Paint', rating: 5,price:1999 },
+    { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg',category:"body", title: 'kumkumdi 35ml Paint', rating: 4 ,price:999},
     { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg',category:"body", title: 'Mahodaya Rose Paint', rating: 4 ,price:999},
     { imgSrc: './imges/footer_2/Mahodaya Rose Paint.svg',category:"body", title: 'Morrocan Argan Paint', rating: 4 ,price:999},
-    { imgSrc: './imges/footer_2/kushuma 35ml Paint.svg',category:"body", title: 'khshuma 35ml Paint', rating: 5,price:1999 },
+    { imgSrc: './imges/footer_2/Morrocan Argan Paint.svg',category:"body", title: 'khshuma 35ml Paint', rating: 5,price:1999 },
 ];
 
 let showAllCards = false;
