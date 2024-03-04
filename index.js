@@ -211,7 +211,7 @@ const cardData = [
 let showAllCards = false;
 // Initial setup - show cards for the default category
 // changeCategory('face');
-function changeCategory(category="hair") {
+function changeCategory(category="face") {
     // Handle category change logic here
    
     const filteredCards = cardData.filter(card => card.category === category);
@@ -305,7 +305,7 @@ function prevSlide() {
 
 
 
-document.addEventListener('DOMContentLoaded', changeCategory('hair'));
+document.addEventListener('DOMContentLoaded', changeCategory('face'));
 const testimonials = [
     "The frizz reduction and    smoothening are fantastic for    your cream. Sometimes I blow    dry my hair and straighten them, but they look scorched    and frizzy. SoI tried your    cream. It was really smooth    and Less frizzy.",
     "Highly recommended organic    product because of it's natural    ingredients which perfectly    suits all lips.","The frizz reduction and    smoothening are fantastic for    your cream. Sometimes I blow    dry my hair and straighten them, but they look scorched    and frizzy. SoI tried your    cream. It was really smooth    and Less frizzy.",
