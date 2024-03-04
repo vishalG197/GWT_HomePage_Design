@@ -37,6 +37,7 @@ a {
     padding-right: 0;
     /* border:1px solid green; */
   }
+  
   .inner_container {
    width: 700px;
    margin-right: 15px;
@@ -63,6 +64,12 @@ a {
    padding-left: 0;
    padding-right: 0;
    /* border:1px solid green; */
+}
+.secret{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
 }
 }
 /* nav style */
@@ -118,6 +125,7 @@ a {
    gap:40px;
 }
 /* banner_slider */
+
 .slider {
    display:flex;
    align-items: center;
@@ -139,9 +147,7 @@ a {
 }
 /* secret container */
 .secret{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+   
    text-align: center;
 }
 
@@ -529,4 +535,191 @@ display:flex;
 justify-content: space-between;
 align-items: center;
 gap:30.3px;
+}
+
+/* Best Seller */
+.bestSeller {
+   text-align: center;
+   display: block;
+}
+
+#cardContainer {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+}
+
+.cart {
+   border: 1px solid #ddd;
+   padding: 10px;
+   margin: 10px;
+   width: 100%;
+   text-align: center;
+}
+
+@media (min-width: 768px) {
+   #cardContainer {
+      grid-template-columns: repeat(4, 1fr);
+   }
+}
+
+.blue-stars {
+   color: rgb(0, 149, 255);
+}
+
+
+
+
+
+/* Testimonials */
+.testimonial-container {
+   text-align: center;
+   overflow: hidden;
+   position: relative;
+}
+
+.testimonial-list {
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   gap: 20px;
+   justify-content: center;
+   transition: transform 0.5s ease-in-out;
+   padding: 20px;
+}
+
+.testimonial {
+   flex: 0 0 100%;
+   background-color: #70645C;
+   color: white;
+   box-sizing: border-box;
+   padding: 10px;
+   text-align: center;
+   margin: 10px;
+}
+
+.arrow {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   cursor: pointer;
+   font-size: 24px;
+   color: #333;
+}
+
+.arrow.left {
+   left: 10px;
+}
+
+.arrow.right {
+   right: 10px;
+}
+
+@media (min-width: 768px) {
+   .testimonial-list {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media (min-width: 992px) {
+   .testimonial-list {
+      grid-template-columns: repeat(4, 1fr);
+   }
+}
+
+
+/* Why Timeless Card */
+.tcard-container {
+   display: flex;
+   justify-content: space-around;
+}
+
+.tcard {
+   position: relative;
+   width: 250px;
+   height: 350px;
+   border-radius: 10px;
+   overflow: hidden;
+   margin: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   background: url('./imges/footer_2/Component\ 15\ –\ 86.svg') center/cover no-repeat;
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+   animation: cardFadeIn 0.5s ease-in-out;
+}
+
+.tcard::before {
+   content: 'Timeless but on time';
+   font-weight: bold;
+   font-size: 24px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255, 255, 255, 0.8);
+   z-index: 1;
+   transition: opacity 0.3s ease-in-out;
+}
+
+.tcard:hover {
+   transform: scale(1.05);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.tcard:hover::before {
+   opacity: 0;
+   transition: opacity 0.3s ease-in-out;
+}
+
+.tcard-heading {
+   font-size: 20px;
+   padding: 20px;
+   margin: 0;
+   opacity: 1;
+   transition: opacity 0.3s ease-in-out;
+}
+
+.tcard-content {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: url('./imges/footer_2/Component\ 15\ –\ 86.svg') center;
+   background-color: aliceblue;
+   color: #70645C;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   opacity: 0;
+   transition: opacity 0.3s ease-in-out;
+}
+
+.tcard:hover .tcard-heading {
+   opacity: 0;
+   transition: opacity 0.3s ease-in-out;
+}
+
+.tcard:hover .tcard-content {
+   opacity: 1;
+   transition: opacity 0.3s ease-in-out;
+}
+
+@keyframes cardFadeIn {
+   from {
+      opacity: 0;
+      transform: translateY(20px);
+   }
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
 }
